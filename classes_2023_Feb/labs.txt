@@ -1,0 +1,13 @@
+1. create a one aws account, change alias naem and observe iam url before and after
+2. check cloudtrail
+3. check trustedadvisor
+4. create a iam role and attach policy
+5. create iam role for lambda and give cloudwatch
+6. access aws resources from local(laptop)
+7. check in your laptop aws credentails path
+A. c/users/devops/.aws
+8. create admin user and gice administration policy 
+9. configure aws cli in your local
+10. describe regions
+11. describe s3
+12. describe iam-users

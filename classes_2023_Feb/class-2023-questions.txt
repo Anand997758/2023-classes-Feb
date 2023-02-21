@@ -1,0 +1,59 @@
+1. what is the recomendations for the security you suggest?
+A. In aws we suggest never login with rootuser and never share user credentials with others and enable mfa
+2. How can i check port is open to outside?
+A. Yes we can use the command telnet and give the private ip it will show port is open or not
+3. I wanted to run a application in cloud and need to give to outside?
+A. We can go for public ip (or) load balancer endpoint (or) dns name
+4. which protocal secures over transit?
+A. https
+5. how to check svc running on which port number?
+6. I wanted to get specific port open or not?
+7. check port is open to outside?
+8. I have a name, wanted to find ip address?
+9. I have a www.xyz.com, tell me how it works?
+10. what is image?
+11. what is instance?
+12. difference between image and instance?
+13. can we take instance backup?
+14. difference between ami and snapshot?
+15. what type of instance types you are using in your project?
+16. tell me specific type of instance you are using and what cpu and ram they have?
+17. what type of ami you are using in your project?
+18. how many instances running in your project?
+19. i did setup of m5.2x.large - can we change instance type to c5.4x.large?
+20. what instance type your using in your project?
+21. can we modify instance type?
+22. can we modify ebs volume?
+23. what services using in your project?
+24. what is sso?
+A. using one user name and password to access many aws accounts and in the organigation we are login with sso to aws account.
+and use this one user management is very easy.
+25. what is ad?
+26. what is managed policy?
+27. what is custom policy?
+28. what is inline policy?
+A. inline policy is we have to given 1 user and 1 policy only
+29. what is assume role?
+A. assume role means we will get the a.k and s.k along with session key. so it is a temporarly store credentails
+30. Can you give me a.k and s.k?
+A. which account
+what permissions do you have - policy
+31. when do we use a.k s.k?
+32. what info we need connting to ec2 to s3?
+A. in aws svc to svc authentication we are use iam role
+security tip
+if one svc to connect with other svc
+don't use a.k/s.key
+use iam role
+create a role - assign poicy -- attach role to ec2
+role also generate a.k/s.key internally those are call temporarly store
+33. what is lambda?
+34. difference between ec2 and lambda?
+ec2: ec2 is we are going to continouly run the application we go for ec2
+lambda: lambda is more cost compart with ec2, and lambda is using for example some applications users will be access rearly we use lambda when ever customers will be come then only application will be, other time application is down so lambda trigger the application
+35. what is trusted entity?
+A. trusted entity means who is access the role
+36. how to get list of regions usng aws cli?
+A. aws ec2 describe-regions 
+37. how to get list of iam users using aws cli?
+A. aws iam list-users
