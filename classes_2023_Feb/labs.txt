@@ -11,3 +11,5 @@ A. c/users/devops/.aws
 10. describe regions
 11. describe s3
 12. describe iam-users
+13. create ec2 and find that cloudtrail
+check the event name and check the arn

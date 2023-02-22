@@ -52,8 +52,31 @@ role also generate a.k/s.key internally those are call temporarly store
 ec2: ec2 is we are going to continouly run the application we go for ec2
 lambda: lambda is more cost compart with ec2, and lambda is using for example some applications users will be access rearly we use lambda when ever customers will be come then only application will be, other time application is down so lambda trigger the application
 35. what is trusted entity?
-A. trusted entity means who is access the role
+A. trusted entity means who is access the role ex: ec2
 36. how to get list of regions usng aws cli?
 A. aws ec2 describe-regions 
 37. how to get list of iam users using aws cli?
 A. aws iam list-users
+38. create ec2?
+A. in which account
+in which regions
+and what instance type -m, c, r
+what ami
+aws ami--we will build our own ami 
+we will upgrade all softwares
+we will remove un-necessary not secured package/softwares
+and install some security agents
+tools to scan ami/instances
+in which vpc and which subnet
+
+39. when application went down what you will be do?
+A. when application went down first we will check the instance status after any cpu and memory go to high 
+we will use the cloudwatch to get the alerts like email/phonecall/ or slack
+40. how do you save cost / tell me cost optimization?
+A. if we are using same instance types in ondemand we go for RI -- to convert RI    
+spot
+======= - spot is a bidding their will be charege as per hour pursupose their will be give to me
+after some days another guy will be come their will be pa extra amount, immediatly remove my instances and give them
+ondemand:
+=========
+by default we are creating all instances in ondemand
