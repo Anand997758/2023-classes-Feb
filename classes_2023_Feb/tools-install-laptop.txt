@@ -1,1 +1,2 @@
 1. aws cli
+2. packer(to create golden ami using packer tool)

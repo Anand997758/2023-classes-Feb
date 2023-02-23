@@ -80,3 +80,28 @@ after some days another guy will be come their will be pa extra amount, immediat
 ondemand:
 =========
 by default we are creating all instances in ondemand
+41. what is cpu utilization and loadaverage?
+A. cpu utilization:
+====================
+ means how much cpu is using application and os we will be see using linux command in server, we can use top command it will be show how much of utilizing the cpu, if the cpu is
+will be reach 70% above we will get the alerts in cloudwatch and monitoring tools we are using grafana and prometheus, so one we will get the alerts,we are increase immediatly the resources.
+atleast we will leave the 2 cpu for os and another cpu we will use applications, so incase we are not leave the cpu for os, the server will be not work.
+loadaverage:
+=============
+loadaverage is we will check uptime and top command use we will check the loadaverage, loadaverage is 100 percentage are there 
+so when we use uptime command it will be show total 3 columns 1 st one is it will show 1 minute once and 2 nd column is it will show every 5 minutes load average, and 3 rd column is it will show every 15 minutes show the load average with percentage.
+42. how to find your region in ec2 server?
+A. we are using metadata url find the region 
+for example: curl httpd://169.254.169.254/region
+43. whwat  are the ebs volumes type?
+A. general purpose(gp2/gp3(latest hardware))
+magnetic
+provision(io1/io2)(it is very speed and it is very cost compare with magnetic)this is megarity using databases
+cold
+throughput
+44. if we have  status checks 0/2 or 1/2  what do you do?
+A. check which status failed
+if the status is system side that is aws side problem that time you can stop and start the machine
+and another system is instance check failed we can check cpu/ram/memrory 
+45. can we monitor memory in cloud watch?
+A. yes we can monitor memory in cloudwatch but by default memory is desabled in cloudwatch so we can install some software

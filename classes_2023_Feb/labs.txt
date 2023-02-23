@@ -13,3 +13,8 @@ A. c/users/devops/.aws
 12. describe iam-users
 13. create ec2 and find that cloudtrail
 check the event name and check the arn
+14. create ec2
+15. create a cost calculation per ec2 and make a link
+16. check limits and increase the lemits with supprot ticket observe the case ticket
+17. create a ec2 machine and attach extra volume
+18. status check in instance
