@@ -94,7 +94,7 @@ so when we use uptime command it will be show total 3 columns 1 st one is it wil
 A. we are using metadata url find the region 
 for example: curl httpd://169.254.169.254/region
 43. whwat  are the ebs volumes type?
-A. general purpose(gp2/gp3(latest hardware))
+A. general purpose(gp2/gp3(gp3 is a latest hardware))
 magnetic
 provision(io1/io2)(it is very speed and it is very cost compare with magnetic)this is megarity using databases
 cold
@@ -105,3 +105,14 @@ if the status is system side that is aws side problem that time you can stop and
 and another system is instance check failed we can check cpu/ram/memrory 
 45. can we monitor memory in cloud watch?
 A. yes we can monitor memory in cloudwatch but by default memory is desabled in cloudwatch so we can install some software
+46. what is hypervisor?
+A. hypervisor means per supose i have a windows server os only we can run only application top of windows os
+but we can use hypervisor we can run multiple os 
+vertualization is mained by the aws so we can run multiple os 
+cpu = vcpu
+ram = vram
+eath = veath
+48. why we go aws console?
+A. In aws we creare the infra so that's why we go for aws console for example iam, ec2 many services
+49. why we login server?
+A. to login the server we check application logs and metrics and to stop applications and start applications and install the applications, then connetiviry one server to another server we go for server

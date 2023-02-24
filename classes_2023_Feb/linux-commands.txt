@@ -1,0 +1,4 @@
+ssh -- 22
+httpd -- 80
+netstat -anlp | grep 22  ------- with in server we will check port is listening or not
+telnet ---------- this command we will check one server to another server connectivity

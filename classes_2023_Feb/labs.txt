@@ -6,10 +6,12 @@
 6. access aws resources from local(laptop)
 7. check in your laptop aws credentails path
 A. c/users/devops/.aws
-8. create admin user and gice administration policy 
+8. create admin user and give administration policy 
 9. configure aws cli in your local
 10. describe regions
 11. describe s3
+23/02/02/2023
+===============
 12. describe iam-users
 13. create ec2 and find that cloudtrail
 check the event name and check the arn
@@ -18,3 +20,11 @@ check the event name and check the arn
 16. check limits and increase the lemits with supprot ticket observe the case ticket
 17. create a ec2 machine and attach extra volume
 18. status check in instance
+
+24/02/2023  ---------   class-14
+============         ===============
+19. set up html application top of ec2
+20. connect ssh to ec2
+21. observe your ip address (search whatismyip in browser)
+22. both should math, do traceroute from ec2 to local
+

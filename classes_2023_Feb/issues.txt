@@ -1,0 +1,7 @@
+1. when do you connect refused?
+A. service will be down, or port is down, and application will be down
+2. in my server triying to connect multiple times how to check?
+A. we can check use netstart command and take that gut public ip trace the path
+traceroute publicip
+3. some one hacked my ipaddress how to trace
+A. we can give netstat
