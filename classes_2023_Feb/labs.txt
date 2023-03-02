@@ -28,3 +28,26 @@ check the event name and check the arn
 21. observe your ip address (search whatismyip in browser)
 22. both should math, do traceroute from ec2 to local
 
+28-02-2023 ------  class-15
+==========       ===========
+1. check id is their or not
+A. id root
+id ec2-user
+2. create connect-refused and slove it
+
+01-3-2023                 class-16
+============= ---------- ===========
+23. install nginx on ec2 
+24. install docker on ec2 and enable as os service 
+25. create a shell script to install apache and enable 
+os level service , check process running or not , 
+check port is listening or not.
+26. create an apache shell script with userdata
+and check the userdata in the console. userdata,stop, 
+observe public ip change, 
+27. assign elastic ip address, observe , stop and
+ start observe public ip will not change
+28. create own ami (apache ami) = os + apache 
+copy ami from mumbai to singapore.
+launch my own ami and observe the 
+

@@ -5,3 +5,5 @@ A. we can check use netstart command and take that gut public ip trace the path
 traceroute publicip
 3. some one hacked my ipaddress how to trace
 A. we can give netstat
+4. Connection timeout?
+A. first we have machine is running or not, and check status check, after check the security group

@@ -16,3 +16,5 @@ and it will be tell your account is hacked, please enable the mfa these are all 
 freequently check trusted advisor notificatons.
 4. lambda
 5. cloudwatch
+6. vpc
+7. trustedadvisor
