@@ -6,4 +6,7 @@ traceroute publicip
 3. some one hacked my ipaddress how to trace
 A. we can give netstat
 4. Connection timeout?
-A. first we have machine is running or not, and check status check, after check the security group
+A. first we have machine is running or not, and check status check, after check the security group,
+and we will give wrong ip that time we are getting connection refused.
+5. my application is not working what is the issue?
+A. in that application reaches to more copy and more memory, so we can increase cpu and memory, in that before our machine will be stop and change the instance type.

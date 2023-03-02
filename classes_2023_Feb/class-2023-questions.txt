@@ -116,3 +116,5 @@ eath = veath
 A. In aws we creare the infra so that's why we go for aws console for example iam, ec2 many services
 49. why we login server?
 A. to login the server we check application logs and metrics and to stop applications and start applications and install the applications, then connetiviry one server to another server we go for server
+50. can we go 1 az multiple subnets?
+A. yes we can go

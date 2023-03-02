@@ -51,3 +51,25 @@ observe public ip change,
 copy ami from mumbai to singapore.
 launch my own ami and observe the 
 
+03-03-2023 ------- class-17
+===========       ===========
+29. step up the apache software using apache userdata
+A. #!/bin/bash
+yum install httpd -y
+systemctl start httpd
+systemctl enable httpd
+netstat -anlp | grep -w "80"
+ps -ef | grep httpd
+30. check availability zones another regions
+mumbai - 2
+n.verginia - 6
+ohio - 
+31. create sg add above rules
+32. create ec2 in one 1az
+33. ec2 to wanted access the page s3
+A. for example one static application we are running on ec2 machine, so we divert ec2 machine to s3
+betore we have to attach iam role, then we can give that permissions relating to s3
+iam role attach to ec2 machine
+aws s3 ls (no out put)
+create a s3 bucket(aws s3 mb s3://anand-s3/)
+34. set up static website with userdata
