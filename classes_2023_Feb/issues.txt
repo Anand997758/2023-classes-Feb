@@ -10,3 +10,7 @@ A. first we have machine is running or not, and check status check, after check 
 and we will give wrong ip that time we are getting connection refused.
 5. my application is not working what is the issue?
 A. in that application reaches to more copy and more memory, so we can increase cpu and memory, in that before our machine will be stop and change the instance type.
+6. I have a 100 instances in that instnaces i have to findout 1 instnace is running or not how to find out
+7. how do you secure your application
+A. when ever we are deployed the application we create the instance in private subnet, and in that private subnet we have to give
+lb allow in security group and that lb endpoint convert the dns. And never give lb endpoint and never create the application on public subnet.

@@ -1,0 +1,2 @@
+admin ------ bastion server(jump server) -------- (ec2)application
+enduser ------ dns ----- lb ----- target group ------- ec2 ------ application

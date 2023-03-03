@@ -73,3 +73,24 @@ iam role attach to ec2 machine
 aws s3 ls (no out put)
 create a s3 bucket(aws s3 mb s3://anand-s3/)
 34. set up static website with userdata
+
+03-03-2023 ----- class10
+=============  ==========
+35. create ec2 and do ping (fail), make it work and ping and disable again.
+36. check billing and observe the regions and see the ec2 running regions.
+37. I have a 100 instances in that instnaces i have to findout 1 instnace is running or not how to find out
+38. application(ec2)
+how many sg:3
+1)lb - sg
+httpd ---- 80 ---- 0.0.0.0/0
+2)bastion - sg
+ssh ---- 22 --- vpn ip
+3)application - sg
+ssh ---- 22 --- bastion-sg
+lb ---- 80 ---- lb-sg
+
+39)create ec2
+1. bastion ec2 ---- attach bastionsg ---ec2
+2. application ec2(userdata) ---- attach appliation-sg  
+3. create lb -- attach lb-sg
+associate application - ec2 to load balancer  

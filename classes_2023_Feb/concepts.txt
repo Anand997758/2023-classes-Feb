@@ -18,3 +18,4 @@ freequently check trusted advisor notificatons.
 5. cloudwatch
 6. vpc
 7. trustedadvisor
+8. Billing ---- global

@@ -118,3 +118,18 @@ A. In aws we creare the infra so that's why we go for aws console for example ia
 A. to login the server we check application logs and metrics and to stop applications and start applications and install the applications, then connetiviry one server to another server we go for server
 50. can we go 1 az multiple subnets?
 A. yes we can go
+51. what is security group?
+A. security group is a nothing but firewall
+it is provide the security ec2 level
+in security group have a inbound(ingress) and outbound(egress)
+it is a statefull ------ (allow only ingress/dont touch egress)
+we allow needed ports in inbound rules
+we dont have deny rules (we cant deny ip address)
+52. sg vs nacl
+A. sg:
+sg is a statefull -- why because in sg have we touched only inbound rules, that's why it is statefull
+allow only inbound rules -- only ec2
+nacl:
+nacl is a stateles-- why because in nacl we are touched inbound and outbound rules that's why it is stateless
+we allow inbound and allow outbound -- only to subnet
+we can restrict users ip addresses in nacl
