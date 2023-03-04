@@ -1,4 +1,4 @@
-1. iam
+1. iam - 
 ==========
 users
 groups
@@ -19,3 +19,4 @@ freequently check trusted advisor notificatons.
 6. vpc
 7. trustedadvisor
 8. Billing ---- global
+9. s3

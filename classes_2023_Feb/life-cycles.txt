@@ -22,6 +22,7 @@
 ======================
 in linux archiitecture first have a shell
 on shell we are typing the commands
-the shell is search to the commands is correct or not and cheks syntax
+the shell is search to the commands is correct or not and checks syntax
 then command is correct it will forword to the kernal
 then the kernal is convert to low level language to high level language
+

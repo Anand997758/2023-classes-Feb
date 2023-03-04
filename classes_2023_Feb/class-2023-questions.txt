@@ -133,3 +133,29 @@ nacl:
 nacl is a stateles-- why because in nacl we are touched inbound and outbound rules that's why it is stateless
 we allow inbound and allow outbound -- only to subnet
 we can restrict users ip addresses in nacl
+
+53. difference between ping and telnet?
+those are we using ec2 machine is running or not
+A. telnet ip and port
+for example:
+telnet privateip 22
+telnet privateip 80
+
+ping: 
+ping publicip -icmp
+
+54. what are aws services  you are using in your project?
+A. In my project we using uproxmetly 17 to 22 services
+compute - ec2 - loadbalancers - autoscaling
+storage - s3 - rds - ebs - cloudfront
+network - vpc - route53
+security - iam
+Other services - cloudwatch, cloudtrail, eks, ecr, sns so  many services we have worked on
+
+55. difference between ami backed up ebs volume and ami backed up instance store volume
+A. ami backed up ebs volume: stop and start ---- data will exist it means wi will get back the data
+ami backed up instance volume: stop and start ------- data will erase it means we didn't get back data
+
+56. can we attatch snapshot to ec2? no
+A. snapshot we will convert to volume then we will attach to ec2
+can we convert snapshot into ami - yes, root volume backup snapshot

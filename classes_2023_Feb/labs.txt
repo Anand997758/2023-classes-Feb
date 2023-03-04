@@ -74,7 +74,7 @@ aws s3 ls (no out put)
 create a s3 bucket(aws s3 mb s3://anand-s3/)
 34. set up static website with userdata
 
-03-03-2023 ----- class10
+03-03-2023 ----- class18
 =============  ==========
 35. create ec2 and do ping (fail), make it work and ping and disable again.
 36. check billing and observe the regions and see the ec2 running regions.
@@ -94,3 +94,12 @@ lb ---- 80 ---- lb-sg
 2. application ec2(userdata) ---- attach appliation-sg  
 3. create lb -- attach lb-sg
 associate application - ec2 to load balancer  
+
+04-03-2023 ----- class-19
+==========     ============
+40. create bastion, lb, nginx on top if ec2
+41. download in my local and upload to s3
+download in ec2
+
+
+

@@ -1,0 +1,2 @@
+1. aws s3 cp app.zip s3://bucketname/app.zip ------ local to s3
+2. aws s3 cp s3://buckername/app.zip .  ----- s3 ro local
