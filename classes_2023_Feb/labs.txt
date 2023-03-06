@@ -101,5 +101,10 @@ associate application - ec2 to load balancer
 41. download in my local and upload to s3
 download in ec2
 
-
-
+06-03-2023 -------- class-20
+===========        ===========
+42. copy the pem (privatekey) from local to bastion(ec2)
+ssh -i privatekey user@publicip
+scp -i privatekey filename to copy user@publicip:/path
+ex: scp -i pem pem ec2-user@publicip:/home/ec2-user/
+3. telnet lab for working port and not working port from bastion to application server

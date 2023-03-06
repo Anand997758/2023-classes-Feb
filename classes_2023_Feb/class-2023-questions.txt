@@ -113,7 +113,7 @@ cpu = vcpu
 ram = vram
 eath = veath
 48. why we go aws console?
-A. In aws we creare the infra so that's why we go for aws console for example iam, ec2 many services
+A. In aws we create the infra so that's why we go for aws console for example iam, ec2 many services
 49. why we login server?
 A. to login the server we check application logs and metrics and to stop applications and start applications and install the applications, then connetiviry one server to another server we go for server
 50. can we go 1 az multiple subnets?
@@ -153,9 +153,10 @@ security - iam
 Other services - cloudwatch, cloudtrail, eks, ecr, sns so  many services we have worked on
 
 55. difference between ami backed up ebs volume and ami backed up instance store volume
-A. ami backed up ebs volume: stop and start ---- data will exist it means wi will get back the data
+A. ami backed up ebs volume: stop and start ---- data will exist it means we will get back the data
 ami backed up instance volume: stop and start ------- data will erase it means we didn't get back data
 
 56. can we attatch snapshot to ec2? no
 A. snapshot we will convert to volume then we will attach to ec2
 can we convert snapshot into ami - yes, root volume backup snapshot
+57. can we connect at a time multiple accounts? yes

@@ -17,3 +17,4 @@ sg --- all icmp ipv4-------0.0.0.0/0
 and ping is using my ec2 machine is rechable or not
 ping and telnet we are using both are same
 DDOS---- by default one port is supported 1024 
+whoami - which user ------- ec2-user or root
