@@ -107,4 +107,8 @@ download in ec2
 ssh -i privatekey user@publicip
 scp -i privatekey filename to copy user@publicip:/path
 ex: scp -i pem pem ec2-user@publicip:/home/ec2-user/
-3. telnet lab for working port and not working port from bastion to application server
+43. telnet lab for working port and not working port from bastion to application server
+
+08-03-2023 ------- class-21
+===========      ===========
+

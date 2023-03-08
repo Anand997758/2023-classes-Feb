@@ -160,3 +160,20 @@ ami backed up instance volume: stop and start ------- data will erase it means w
 A. snapshot we will convert to volume then we will attach to ec2
 can we convert snapshot into ami - yes, root volume backup snapshot
 57. can we connect at a time multiple accounts? yes
+58. what does loadbalancer does?
+A. load balancing
+security
+health check
+it makes application HA
+distributes the traffic
+59. what is sticky session?
+A. in a session all the requets send to one ec2 mechine
+send all requets in a session to same ec2
+60. what does autoscaling?
+A. autoscaling is unhealty will get replaced and if you terminate ec2, it brings another ec2
+based on metric target, launch another ec2
+61. How do you make sure application without going down?
+A. create lb
+spread ec2 across multiple az's
+take ami backup and snapshot
+enable autoscaling
