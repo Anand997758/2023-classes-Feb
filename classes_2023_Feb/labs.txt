@@ -112,3 +112,8 @@ ex: scp -i pem pem ec2-user@publicip:/home/ec2-user/
 08-03-2023 ------- class-21
 ===========      ===========
 
+09-03-2023 ------- class-22
+==========       ===========
+44. create nlb and attach bastion
+A. ssh key.pem ec2-user@nlb-endpoint
+

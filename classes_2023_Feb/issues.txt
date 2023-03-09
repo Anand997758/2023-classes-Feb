@@ -14,3 +14,7 @@ A. in that application reaches to more copy and more memory, so we can increase 
 7. how do you secure your application
 A. when ever we are deployed the application we create the instance in private subnet, and in that private subnet we have to give
 lb allow in security group and that lb endpoint convert the dns. And never give lb endpoint and never create the application on public subnet.
+
+http status codes ----- 200-299
+https status codes ------ 400-499 - issue at client side and server side permission issue
+http status code ------ 500-599 - internel server (server issue)-- like cpu will reach high, memory application not running

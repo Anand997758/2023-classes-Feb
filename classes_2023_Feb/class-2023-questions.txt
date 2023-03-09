@@ -177,3 +177,23 @@ A. create lb
 spread ec2 across multiple az's
 take ami backup and snapshot
 enable autoscaling
+62. difference betweenn alb and nlb layer?
+A. nlb: 
+l4 layer (transport layer and network layer)
+static ip assigned
+it understand tcp/tls protocals
+it operates very speed transmission
+alb:
+l7 layer(application layer)
+alb in wont be static and keeps changing
+it will understand http and https protocals
+it will have more requests headers and responce headers
+responce codes: 10x, 20x, 30x, 40x, 50x
+63. we can attach bastion to nlb?
+A. benfits:
+security to bastion
+if we stop and start bastion, in case we are not using lb for bastion, we stop and start bastion ip will change, we can attach 
+nlb endpoint to bastion, why because nlb have a static ip.
+64. diff between get and post?
+A. get is used for light weight data request and responce
+post is used forr data weight is high and also other use cases.
