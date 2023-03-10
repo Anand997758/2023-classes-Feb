@@ -117,3 +117,12 @@ ex: scp -i pem pem ec2-user@publicip:/home/ec2-user/
 44. create nlb and attach bastion
 A. ssh key.pem ec2-user@nlb-endpoint
 
+10-03-2023 ------ class-23
+==========     =============
+45. create autoscaling
+1. instance launch --- nginx --- application
+ami - backup
+launch configuration
+launch template
+create autoscaling
+
