@@ -10,6 +10,7 @@ pwd - it will give path where you
 free -m ---- how much ram
 free -g
 curl -I http://169.254.169.254/latest/metadata/
+curl -I http://169.254.169.254/latest/dynamic/instance-identity/document
 echo "echo 3 > /proc/sys/vm/drop_caches" --- it is check there is any bug in application we will check use this command
 and free -m
 ping public ip --------- ping is by default is disable, so we have to enable go to sg and enable
