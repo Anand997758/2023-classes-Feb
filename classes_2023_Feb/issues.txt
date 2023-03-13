@@ -4,7 +4,7 @@ A. service will be down, or port is down, and application will be down
 A. we can check use netstart command and take that gut public ip trace the path
 traceroute publicip
 3. some one hacked my ipaddress how to trace
-A. we can give netstat
+A. we can give netstat, traceroute
 4. Connection timeout?
 A. first we have machine is running or not, and check status check, after check the security group,
 and we will give wrong ip that time we are getting connection refused.
@@ -15,6 +15,6 @@ A. in that application reaches to more copy and more memory, so we can increase 
 A. when ever we are deployed the application we create the instance in private subnet, and in that private subnet we have to give
 lb allow in security group and that lb endpoint convert the dns. And never give lb endpoint and never create the application on public subnet.
 
-http status codes ----- 200-299
+http status codes ----- 200-299 - success
 https status codes ------ 400-499 - issue at client side and server side permission issue
 http status code ------ 500-599 - internel server (server issue)-- like cpu will reach high, memory application not running

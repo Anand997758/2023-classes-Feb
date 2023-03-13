@@ -125,4 +125,18 @@ ami - backup
 launch configuration
 launch template
 create autoscaling
+2.set up autoscalinf steps:
+1) aws account - region 
+5) create s3 bucket create iam role
+6)create alb - autoscaling-tg
+7)create ami of nginx with website content(userdata)
 
+12-03-2023 ---- class-24
+===========    =============
+46. setup ssm and login ec2 machine
+47. enable full monitoring disable monitoring and create simple cpu usage dashboard
+48. share ami from one region to another region
+49. encrypt root volume
+50. check apache jmeter
+51. enable detail minitoring (launch template /autoscaling)
+52. create dyname autoscaling policy(nginx)attach to targetgroup

@@ -197,3 +197,14 @@ nlb endpoint to bastion, why because nlb have a static ip.
 64. diff between get and post?
 A. get is used for light weight data request and responce
 post is used forr data weight is high and also other use cases.
+65. how to set up nginx in ec2 with HA?
+A. lanuch one instance
+login to bastion server
+after do the connectivity bastion to application server
+then login bastion to app server
+on app - ec2 : install nginx, enable os level svc, make static website 
+create alb, create tg, attach nginx 
+66.difference between lanuch template and launch configuration?
+A. template have a versions and we can edit templates
+lanuch configuration don't have versions and we can't edit configurations
+67. difference between static autoscaling and dynamic autoscaling
