@@ -9,3 +9,5 @@ node exporter ----   9100
 elastic serach ------9200
 kibana -----         5601
 logstash -----       5044
+sonarqube -------    9000
+nexus -------        8081

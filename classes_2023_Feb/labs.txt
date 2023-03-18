@@ -140,3 +140,20 @@ create autoscaling
 50. check apache jmeter
 51. enable detail minitoring (launch template /autoscaling)
 52. create dyname autoscaling policy(nginx)attach to targetgroup
+
+17-03-2023 -------- class-25
+===========       ============
+1. s3 with static application
+
+18-03-2023 -------- class-26
+==========      ==============
+1. static website hosting
+steps:
+
+i. create the s3 bucket  --- mumbai(encryptionn sse(it is maintain by aws) and kms(kms will maintain by we))
+ii. properties --- enable websitehosting -- url -- http -- cloudfront --- https
+iii. cloudfront ---- s3(static webhosting) -- security
+2. create a error page and try that url
+3. enable cloudfront(cdn)
+4. observe the url : https  --ssl certivicate aws
+5. create a error with ssl certificate error 

@@ -1,0 +1,62 @@
+#static:
+==========
+zip -r index.html-$BUILD_NUMBER.zip *
+aws s3 cp index.html-$BUILD_NUMBER.zip s3://anandmb/
+aws s3 cp s3://anandmb/index.html-$BUILD_NUMBER.zip .
+scp -r index.html-$BUILD_NUMBER.zip root@172.31.9.208:/opt
+ssh root@172.31.9.208 'unzip /opt/index.html-$BUILD_NUMBER.zip'
+
+#NGINX:
+========
+ci:
+====
+zip -r index.html-$BUILD_NUMBER.zip *
+aws s3 cp index.html-$BUILD_NUMBER.zip s3://anandmb/
+cd:
+===
+#aws s3 cp s3://anandmb/index.html-4.zip .
+#unzip index.html-4.zip
+scp -r index.html root@172.31.6.79:'/usr/share/nginx/html'
+
+static-pipeline:
+=================
+pipeline {
+    agent any
+    stages {
+        stage('checkout') {
+            steps {
+                checkout scmGit(branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[url: 'https://github.com/Anand997758/jenkins-html.git']])
+            }
+        }
+        stage('zip the package') {
+            steps {
+                sh 'zip -r index.html-$BUILD_NUMBER.zip *'
+            }
+        }
+        stage('artifactory s3') {
+            steps {
+                sh 'aws s3 cp index.html-$BUILD_NUMBER.zip s3://anandmb/'
+            }
+        }
+        stage('remove in workspace') {
+            steps {
+                sh 'rm -rf *'
+            }
+        }
+        stage('pull to s3') {
+            steps {
+                sh 'aws s3 cp s3://anandmb/index.html-$BUILD_NUMBER.zip .'
+            }
+        }
+        stage('unzip the file') {
+            steps {
+                sh 'unzip index.html-$BUILD_NUMBER.zip'
+            }
+        }
+        stage('deploy to targe server') {
+            steps {
+                sh 'scp -r index.html root@172.31.5.66:/var/www/html'
+            }
+        }
+    }
+}

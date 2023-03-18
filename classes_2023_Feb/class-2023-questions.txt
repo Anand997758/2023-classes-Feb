@@ -207,4 +207,6 @@ create alb, create tg, attach nginx
 66.difference between lanuch template and launch configuration?
 A. template have a versions and we can edit templates
 lanuch configuration don't have versions and we can't edit configurations
-67. difference between static autoscaling and dynamic autoscaling
+67. difference between static autoscaling and dynamic autoscaling?
+A. static applications means we will increase the machins 
+68. difference between iam policy and s3 policy?

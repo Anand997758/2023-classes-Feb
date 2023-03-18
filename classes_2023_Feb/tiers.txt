@@ -1,0 +1,2 @@
+1. two tier architucture:
+client will sent the request server will be give the responce this is called two tier architucture
