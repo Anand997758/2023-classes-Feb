@@ -143,17 +143,32 @@ create autoscaling
 
 17-03-2023 -------- class-25
 ===========       ============
-1. s3 with static application
+53. s3 with static application
 
 18-03-2023 -------- class-26
 ==========      ==============
-1. static website hosting
+54. static website hosting
 steps:
 
 i. create the s3 bucket  --- mumbai(encryptionn sse(it is maintain by aws) and kms(kms will maintain by we))
 ii. properties --- enable websitehosting -- url -- http -- cloudfront --- https
 iii. cloudfront ---- s3(static webhosting) -- security
-2. create a error page and try that url
-3. enable cloudfront(cdn)
-4. observe the url : https  --ssl certivicate aws
-5. create a error with ssl certificate error 
+55. create a error page and try that url
+56. enable cloudfront(cdn)
+57. observe the url : https  --ssl certivicate aws
+58. create a error with ssl certificate error 
+
+19-03-2023  ------ class-27
+============    ==============
+59. check the website ssl certificate
+i. check openssl command for a website
+ii. check public certificate
+iii. check common name
+iv. ssl handshake
+v. certificate chain
+A. openssl s_client -connect www.google:443
+60. i wanted to know which instance type we are using with in the server
+61. when i access the apache page (zone, region, instance type)
+62. path based routing with alb
+apache --- apache ec2
+nginx ---- nginx ec2

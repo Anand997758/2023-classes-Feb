@@ -1,0 +1,8 @@
+we go for ssl certificate first we need the own domain, by the domain name then make https
+openssl s_client -connect www.google:443    
+
+I wanted to go my own ssl certificates
+i. purchase the domain
+ii. request certificate in ACM ---- validate(dns/email)
+iii. after validate associate with any service
+and attach to cloudfront and loadbalancers 

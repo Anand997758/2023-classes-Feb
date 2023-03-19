@@ -1,3 +1,4 @@
+#nginx
 #!/bin/bash
 amazon-linux-extras install nginx1
 systemctl start nginx
@@ -6,3 +7,15 @@ wget https://www.free-css.com/assets/files/free-css-templates/download/page288/d
 unzip digitalex.zip
 rm -rf digitalex.zip
 cp -r digitalex-html/ /usr/share/nginx/html
+
+#apache
+##!/bin/bash #it is a cshell it will not give this command it will be take txt format
+#!/bin/bash
+yum install update -y
+yum install httpd -y
+systemctl start httpd
+systemctl enable httpd
+
+#apache one line command
+#!/bin/bash
+yum install update -y && yum install httpd -y && systemctl start httpd && systemctl enable httpd

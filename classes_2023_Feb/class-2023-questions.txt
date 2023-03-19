@@ -210,3 +210,9 @@ lanuch configuration don't have versions and we can't edit configurations
 67. difference between static autoscaling and dynamic autoscaling?
 A. static applications means we will increase the machins 
 68. difference between iam policy and s3 policy?
+69. alb?
+A. In alb have a request headers and responce headers this means it will be scan all things in alb
+which application it is, and based on context root it will forward requests to targetgroup
+rules:
+hostbased(domain based)
+pathbased(context)
