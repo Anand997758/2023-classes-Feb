@@ -11,3 +11,6 @@ kibana -----         5601
 logstash -----       5044
 sonarqube -------    9000
 nexus -------        8081
+
+change apache port path: /etc/httpd/httpd.conf --listen 80
+chnage tomcat port path: /opt/tomcat/conf/server.xml --port change

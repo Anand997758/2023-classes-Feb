@@ -172,3 +172,26 @@ A. openssl s_client -connect www.google:443
 62. path based routing with alb
 apache --- apache ec2
 nginx ---- nginx ec2
+
+20-03-2023  ----- class-28
+===========       ===========
+63. path based hosting
+steps:
+1. two ec2 / security groups(3)(apache,nginx,alb)
+2. create tgs(apache,nginx)--attach ec2
+3. create alb and rules(/apache/nginx and default)
+64. check website status errors in tg monitoring
+65. check healthy hosts and unhealthy (5xx/4xx)
+66. create home page with your ec2 metadata
+67. test with path(404)
+68. stop apache (check tg and minitoring, error codes)
+
+21/03/2023 ------ class-29
+===========    ============
+1. alb path and host - dynamic website -- https(domain route53) -- autoscaling
+69. to setup tomcat application
+steps:
+1. vpc, sg(8080), ec2--attach sg
+2. install java, install tomcat(/opt/tomcat), start tomcat
+3. deploy war file(/opt/tomcat/webapps)
+70. setup the tomcat with userdata

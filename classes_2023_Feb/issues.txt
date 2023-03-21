@@ -20,3 +20,9 @@ https status codes ------ 400-499 - issue at client side and server side permiss
 http status code ------ 500-599 - internel server (server issue)-- like cpu will reach high, memory application not running
 403 (file not found)--- file is not there we will get this error(in ec2)
 403 (for bidden)--- by default bucket is private that time we get access denied error
+8. https status codes:
+200 - success 
+502 - bad gateway - application is not running or we did mistake in security groups or any status check will be fail that bad gateway will be come.
+403 - forbidden
+401 - file not found --- in one application i am searching to one file in that file not have in application that this error will be come
+301 - redirection - 
