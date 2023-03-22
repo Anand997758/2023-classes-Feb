@@ -20,6 +20,8 @@ systemctl enable httpd
 #!/bin/bash
 yum install update -y && yum install httpd -y && systemctl start httpd && systemctl enable httpd
 
+#shoppingcart link
+#https://www.oracle.com/webfolder/technetwork/tutorials/obe/fmw/wls/10g/r3/cluster/session_state/session_state.htm
 #tomcat
 #!/bin/bash
 yum install java -y

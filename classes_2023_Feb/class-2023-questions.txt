@@ -216,3 +216,12 @@ which application it is, and based on context root it will forward requests to t
 rules:
 hostbased(domain based)
 pathbased(context)
+70. alb will be listen as 80 port number and alb was hiding port numbers it means when ever users will access the page their were not mentioned port numbers these all configuration we do in alb
+71. what are the services using?    
+A. ec2, cloudfront, s3, sqs, loadbalancer, autoscaling
+iam, vpc, cloudwatch, cloudtrail, route53, eks, ecr, billing, sns
+72. tell me your project?
+A. in my organigation my project is ssi, this is provide the services and it will be get the alerts, for example 
+take it my company is data foundry it is selling to the detectors as small companies, if the detectors will get any issues like 
+fire accident, smoke will get heavy or any weather issue we will get the alerts immediatly, in the backend developers set logic behind the code
+73. when ever we perchase the name will resistered in nameservers

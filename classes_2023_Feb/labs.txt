@@ -195,3 +195,7 @@ steps:
 2. install java, install tomcat(/opt/tomcat), start tomcat
 3. deploy war file(/opt/tomcat/webapps)
 70. setup the tomcat with userdata
+
+22/03/2023 ----- class-30
+==========    =============
+71. purchase the domain in godaddy
