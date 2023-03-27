@@ -38,3 +38,14 @@ wget https://www.oracle.com/webfolder/technetwork/tutorials/obe/fmw/wls/10g/r3/c
 unzip shoppingcart.zip
 mv shoppingcart.war webapps
 rm -rf shoppingcart.zip
+
+
+#jenkins
+#!/bin/bash
+yum install java -y
+wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo
+rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key
+yum install jenkins -y
+systemctl start jenkins
+systemctl enable jenkins
+

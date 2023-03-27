@@ -26,3 +26,4 @@ http status code ------ 500-599 - internel server (server issue)-- like cpu will
 403 - forbidden
 401 - file not found --- in one application i am searching to one file in that file not have in application that this error will be come
 301 - redirection - 
+DNS-PROBE_FINISHED_NXDOMAIN - it means your tried a wrong domain or the domain in not in record set

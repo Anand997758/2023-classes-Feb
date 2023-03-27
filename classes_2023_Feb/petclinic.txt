@@ -1,0 +1,14 @@
+steps for petclinic:
+1. sg:
+bastion-sg: ssh - 22 - myip
+alb-sg - 80 - anywhere
+jenkins-sg - 22 - bastionsg
+             8080 - alb-sg
+tomcat-sg - 22 - bastiongsg
+              8080 - alb-sg
+rds-sg - 3306 - bastionsg
+2. create vpc, subnet, igw, nat, routetable
+3. create rds - mysql, 5.7, username - master, passwd - admin123, production, instance - bastion
+
+2. instances - 3
+bastion-instance - bastion-sg

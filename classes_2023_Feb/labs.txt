@@ -199,3 +199,18 @@ steps:
 22/03/2023 ----- class-30
 ==========    =============
 71. purchase the domain in godaddy
+
+25/03/2023 ----  class-32
+=========    =============
+72. hosted zone with alb
+73. have host based rules (apache.yourdomain)(nginx.yourdomain)
+74. path
+host
+https
+services:
+route53 / acm / lb(rules -- security policies) -ec2 -- tgs
+75. try with cloudfront with your acm and register cloudfront in s3
+76. i wanted to have apaceh or nginx level also ssl certificate, how to do that
+77. cloudfront with https with your domain name
+78. alb with https and path based and host based (tomcat/apache/nginx)
+

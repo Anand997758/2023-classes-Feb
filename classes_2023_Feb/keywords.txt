@@ -1,2 +1,4 @@
 ctrl+r = start ------ it will show systemctl start httpd
 ctrl+r = stop ------- it will show systemctl stop httpd
+wildcard certificate - *.domainname.xyz
+letsencrypt(CA)  --- this is a one company -- this for 

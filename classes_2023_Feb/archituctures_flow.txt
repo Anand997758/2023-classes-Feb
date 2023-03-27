@@ -1,5 +1,7 @@
 admin ------ bastion server(jump server) -------- (ec2)application
 enduser ------ dns ----- lb ----- target group ------- ec2 ------ application
+lb -- listeners(80/443) -- rules(host/path) -- targetgroups -- instances
 hardware ------ os ------ appliation
+enduser --- https ---- alb ----- http --- ec2
 
 project architucture:
