@@ -49,3 +49,20 @@ yum install jenkins -y
 systemctl start jenkins
 systemctl enable jenkins
 
+#nexus on ubuntu
+#!/bin/bash
+apt-get update
+apt install openjdk-8-jre-headless
+cd /opt
+wget https://download.sonatype.com/nexus/3/latest-unix.tar.gz
+tar -zxvf latest-unix.tar.gz
+mv nexus-3.50.0-01/ nexus
+adduser nexus
+
+#userdata with ssm
+yum install -y https://s3.amazonaws.com/ec2-downloads-windows/SSMAgent/latest/linux_amd64/amazon-ssm-agent.rpm
+yum install telnet nc net-tools -y
+systemctl start amazon-ssm-agent
+systemctl status amazon-ssm-agent
+#then we have gice iam role for ec2 to ssm full access
+

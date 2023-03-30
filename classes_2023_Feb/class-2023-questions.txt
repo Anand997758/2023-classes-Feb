@@ -225,3 +225,25 @@ A. in my organigation my project is ssi, this is provide the services and it wil
 take it my company is data foundry it is selling to the detectors as small companies, if the detectors will get any issues like 
 fire accident, smoke will get heavy or any weather issue we will get the alerts immediatly, in the backend developers set logic behind the code
 73. when ever we perchase the name will resistered in nameservers
+74. difference between iam role and instance profile?
+i am role is we can give any 
+instance profile is only specific ec2
+75. how do you check internet connectivity to ec2-user?
+A. give the command ping - icmp
+76. when we get permission denied?
+A. wrong user 
+wrong pem file
+if we have more permissions for file
+if there is algorithm issue(rsa)
+77. i wanted to check my website is working or not?
+A. curl -I http://localhost/
+curl -I htttpd://127.0.0.1/
+78. i was getting 502 or 50x error how do you trouble shoot?
+A. first we have to check the machine is healthy or not then we have to check perticular instance security groups and application is running or not and check the process and port is listen or not
+79. we are getting ssl error or certificate error how to resolve it?
+A. if my certificate is expires
+or my acm certificate is not attached on https listerners
+the ceretificate shouldn't have in client side like root CA of other end
+name is not matching
+80. how can i check which tls or which ssl version protocal 
+A. openssl and ssllabs

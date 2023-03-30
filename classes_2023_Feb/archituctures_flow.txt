@@ -4,4 +4,7 @@ lb -- listeners(80/443) -- rules(host/path) -- targetgroups -- instances
 hardware ------ os ------ appliation
 enduser --- https ---- alb ----- http --- ec2
 
-project architucture:
+acm ceretificate:
+client(browser) --- route53 --- alb --- 443(listner) --- acm --- ec2
+application-flow:
+internet -- igw -- public route -- public subnet --- private route (nat)-- private route -- ec2 machine

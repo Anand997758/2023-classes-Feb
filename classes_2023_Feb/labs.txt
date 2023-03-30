@@ -214,3 +214,11 @@ route53 / acm / lb(rules -- security policies) -ec2 -- tgs
 77. cloudfront with https with your domain name
 78. alb with https and path based and host based (tomcat/apache/nginx)
 
+class - 35 -------- 30-03-2023
+===========      ===============
+79. observe the userdata system log
+80. connect with ssm (switch users from ssm-user to ec2-user/root/root-ec2-user)
+81. enable the termination protection then try to terminate the machine
+82. create ssl error and observe the miss match 
+83. make ping fail / and make success?
+A. remove nat-gateway and attach natgateway

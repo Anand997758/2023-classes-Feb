@@ -19,6 +19,8 @@ freequently check trusted advisor notificatons.
 6. vpc
 7. trustedadvisor
 8. Billing ---- global
-9. s3
+9. s3 --- global
 10. ec2
 11. cloudfront ---- akmai is nothing but edge location it means look like cloudfront
+12. ACM 
+13. Route53
